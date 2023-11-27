@@ -9,7 +9,7 @@ public class Currency : ScriptableObject
     public static bool canaffoard(float cost)
     {
         Debug.Log("Ammount : " + amount);
-        if(cost >= amount)
+        if(cost > amount)
         {
             return false;
         }
